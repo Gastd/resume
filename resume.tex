@@ -1,0 +1,125 @@
+%% start of file 'template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[letterpaper]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+\usepackage{textcomp}
+% moderncv themes
+\moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\usepackage{hyperref}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+    % Profile
+\name{Gabriel F P Araujo}{}
+\address{Brasília, Brazil}
+\phone[mobile]{55 61 982 308 980}
+\email{gabriel.fp.araujo@gmail.com}
+% \email{gabriel.araujo@ieee.com}
+\homepage{gastd.github.io}
+% \homepage{github.com/Gastd}
+    \begin{document}
+\makecvtitle
+\section{Education}
+\cventry
+{Incomplete}
+{B.E. in Mechatronics Engineering}
+{University of Brasília}
+{}
+{\textit{Brasília, Brazil}}
+{}
+\section{Experience}
+\cventry
+{February 2013 -- February 2014}
+{Software Developer}
+{LIPIS/LEI (Laboratory of Instrumentation and Processing of Images and Signals)}
+{University of Brasília, Brasília, Brazil}
+{}
+{\begin{itemize}%
+	\item Implemented a solution for automating Antibiogram based on an algorithm developed by the Laboratory.
+	\item Builded in C++ using OpenCV.
+	\end{itemize}}
+\cventry
+{July 2014 -- June 2015}
+{Undergraduate Researcher}
+{CIC UnB (Computer Science Department)}
+{University of Brasília, Brasília, Brazil}
+{}
+{\begin{itemize}%
+	\item Development of an autonomous driver to the TORCS simulator in order to compete in the Simulated Car Racing Championship, a former GECCO Competition.
+	\item Awarded 5th place in the SCRC 2015.
+	\item Published article about the pilot development, DOI: 10.1109/SBGames.2015.19
+	\end{itemize}}
+\cventry
+{September 2016}
+{Teacher}
+{University of Brasília}
+{University of Brasília, Brasília, Brazil}
+{}
+{\begin{itemize}%
+	\item Teaching Robotics and ROS in ROSJoy Course.
+	\end{itemize}}
+\cventry
+{January 2017 -- February 2017}
+{Teacher Assistant}
+{University of Brasília}
+{University of Brasília, Brasília, Brazil}
+{}
+{\begin{itemize}%
+	\item Elaborated challenges and assignments under the Professor's supervision for Computational Fundamentals of Robotics course during UnB Summer School and further documentation of the achieved goals.
+	\end{itemize}}
+\cventry
+{May 30, 2017 -- August 21, 2017}
+{Software Developer -- Google Summer of Code 2017 participant with GNSS-SDR}
+{University of Brasília}
+{University of Brasília, Brasília, Brazil}
+{}
+{\begin{itemize}%
+	\item Expanding the GNSS-SDR software to GLONASS system.
+	\item Implementation of Acquisition and Tracking blocks of the GLONASS version of GNSS-SDR.
+	\item My contribution is on  \href{https://gist.github.com/Gastd/f46a2bd78dcc11984e69eb7cbc49f8a4}{my GitHub Gist.}
+	\end{itemize}}
+\cventry
+{August 2013 -- Present}
+{Undergraduate Researcher}
+{LARA (Automation and Robotics Laboratory)}
+{University of Brasília, Brasília, Brazil}
+{}
+{\begin{itemize}%
+	\item Currently working with SDR development, software defined radio for mobile robots localization using multi-constellation GNSS systems.
+	\item Also engaged in others projects in robotics, more specifically on perception and navigation.
+	\item Implemented a \textquotedbl{}chatbot\textquotedbl{} system for control a mobile robot using speech recognition.
+	\item Implemented a indoor localization system using an EKF and ARToolKit tags.
+	\item Implemented ROS drivers for GPS and IMU sensors.
+	\end{itemize}}
+
+\section{Skills}
+\cvitem{Programming Languages}{C/C++, Python, Coq, Haskell, Ruby}
+\cvitem{Frameworks}{Robot Operating System (ROS), GoogleTest, CMake}
+\cvitem{Libraries}{OpenCV, OpenGL}
+\cvitem{Debugging Tools}{GDB, Valgrind}
+\cvitem{Operating Systems}{Linux (Ubuntu), Windows}
+\cvitem{Fab skills}{Soldering, PCB printing}
+% \cvitem{Lab skills}{Soldering, PCB printing}
+\cvitem{Applications}{MatLab, LATEX, Lyx, LibreOffice, SolidWorks, MS Office, Fritzing}
+
+% \section{Activities and Societies}
+% \cvitem{UnBall Robot Soccer Team}{Humanoids Group}
+% \cvitem{Study Group}{Probabilistic Robotics Study Group}
+% \cvitem{Automation and Robotics Laboratory}{AMORA -- Autonomous Mobile Robots Algorithms}
+
+\ 
+\end{document}
