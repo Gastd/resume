@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.5.7)  27 AUG 2019 21:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.5.7)  29 AUG 2019 17:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1178,11 +1178,11 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 42.
 
-Overfull \hbox (9.09499pt too wide) in paragraph at lines 42--42
- [][]\T1/lmr/m/n/10 (-20) Undergraduated[]|
+Overfull \hbox (3.6506pt too wide) in paragraph at lines 42--42
+ [][]\T1/lmr/m/n/10 (-20) Undergraduate[]|
  []
 
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 94.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 97.
 (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -1190,14 +1190,14 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 141.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 144.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 141.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 144.
  (./resume.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 141.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 141.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 144.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 144.
 Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: B2551912500E0BC013A3E41B195994CA;302.
  ) 
@@ -1217,7 +1217,7 @@ lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf
 pfb></usr/share/texmf/fonts/type1/public/lm/lmro10.pfb></usr/share/texmf/fonts/
 type1/public/lm/lmro9.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt9.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on resume.pdf (1 page, 269584 bytes).
+Output written on resume.pdf (1 page, 269121 bytes).
 PDF statistics:
  76 PDF objects out of 1000 (max. 8388607)
  61 compressed objects within 1 object stream
